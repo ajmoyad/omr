@@ -19,6 +19,8 @@ Como limitación adicional la imagen de partida debe estar correctamente alinead
 Autores:
 
 Antonio J. Moya Díaz - ajmoyad@gmail.com
+
 Fernando Pérez Bueno - ferztk@gmail.com
+
 
 Fecha: 22 de Junio de 2012

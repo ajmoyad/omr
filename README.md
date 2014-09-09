@@ -18,7 +18,7 @@ A limiting rule is that the starting image needs to be properly (horizontally) a
 
 Authors:
 
-Antonio J. Moya Díaz - ajmoyad@gmail.com
-Fernando Pérez Bueno - ferztk@gmail.com
+* Antonio J. Moya Díaz - ajmoyad@gmail.com
+* Fernando Pérez Bueno - ferztk@gmail.com
 
 Date: 22nd of June 2012

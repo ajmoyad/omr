@@ -11,9 +11,9 @@ clc,close all
 %% Cargado de la partitura
 
 % Cargo la imagen con la que deseo trabajar
-imagen= imread('imagenes/canon.gif');
-% imagen= imread('imagenes/mibarba.gif');
-% imagen= imread('imagenes/cumple.jpg');
+imagen= imread('images/canon.gif');
+% imagen= imread('images/mibarba.gif');
+% imagen= imread('images/cumple.jpg');
 
 %Muestro la partitura completa
 figure(1),imshow(double(imagen))

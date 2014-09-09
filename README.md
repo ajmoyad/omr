@@ -1,25 +1,24 @@
 ### OMR (Optical Music Recognition)
 
-Reconocedor óptico de partituras realizado en el marco de la asignatura ‘Procesado Digital de Imágenes’, Ingeniería de Telecomunicaciones, 4º Curso, Universidad de Granada.
+Optical music recognition tool implemented for the course 'Digital Image Processing', Telecommunications Engineering, 4th year, Universidad de Granada (España).
 
 ***
 
-Se trata de un reconocedor de partituras simple que convierte la imagen reconocida a una cadena de texto. 
+This is a simple music recognition tool which turns the recognized image into a string.
 
-Es capaz de reconocer todas las figuras musicales (blanca, negra, corchea, etc), así como otras figuras comunes como pueden ser los compases o la clave. No es capaz de reconocer otros elementos como, por ejemplo, ligaduras.
+It is able to recognize most of the note values (Minim, crotchet, quaver, etc) as well as other common figures such as time signature and clef. It isn't able to recognize other elements such as ties or slurs.
 
-El reconocimiento se realiza segmentando la imagen mediante histogramas horizontales y verticales para aislar la figura. Una vez aislada se compara mediante correlaciones bidimesionales con una base de datos de figuras (máscaras) y se estima su altura, nuevamente, usando histogramas.
+The recognition is made by dividing the image using vertical and horizontal histograms in order to isolate the note. Once isolated, the note is compared with a figure (mask) database using two dimensional correlations. Then, the value is estimated with histograms.
 
-La base de datos que se incluye es una estructura de MATLAB pensada para hacer escalable la inclusión de nuevas figuras a reconocer.
+The included database is a MATLAB structure thought to be easily scaleable by simply adding new figures to recognize.
 
-Como limitación adicional la imagen de partida debe estar correctamente alineada.
+A limiting rule is that the starting image needs to be properly (horizontally) aligned.
 
 ***
 
-Autores:
+Authors:
 
-* Antonio J. Moya Díaz - ajmoyad@gmail.com
-* Fernando Pérez Bueno - ferztk@gmail.com
+Antonio J. Moya Díaz - ajmoyad@gmail.com
+Fernando Pérez Bueno - ferztk@gmail.com
 
-
-Fecha: 22 de Junio de 2012
+Date: 22nd of June 2012
